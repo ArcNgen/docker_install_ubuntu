@@ -2,7 +2,7 @@
 
 ## Remove existing docker services
 
-Remove existing docker services that conflict with installing, or updating docker.
+If needed remove existing docker services that conflict with installing, or updating docker.
 
 ```bash
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
